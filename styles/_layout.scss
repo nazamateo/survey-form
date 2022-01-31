@@ -1,0 +1,20 @@
+$font-stack:'Josefin Sans',
+sans-serif;
+$font-nav: 'Roboto Mono',
+monospace;
+$nav-size: 25px;
+$primary-color: snow;
+$secondary-color:black;
+$tertiary-color: #0b5a1f;
+$full:100%;
+$half:50%;
+
+
+
+body {
+    background-image: url(images/bg.jpg);
+    height: $full;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

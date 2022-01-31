@@ -1,0 +1,123 @@
+#nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100000;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 2px solid black;
+}
+
+#nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  transition: transform 0.2s;
+  font-weight: 900;
+}
+
+#nav a:hover {
+  text-decoration: none;
+  color: #0b5a1f;
+  transform: scale(1.2);
+}
+
+.form {
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+  top: 35px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.form #description,
+.form #container2 {
+  height: auto;
+  width: 50%;
+  margin: 0px;
+  position: relative;
+  top: 50px;
+  background-color: rgba(223, 223, 223, 0.678);
+}
+
+.form #description h2,
+.form #description p {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.form #description h2 {
+  top: 130px;
+}
+
+.form #description p {
+  top: 150px;
+}
+
+.form #container2 h2 {
+  text-align: center;
+}
+
+.form #container2 #name-email {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form #container2 input[type=text],
+.form #container2 input[type=email],
+.form #container2 button,
+.form #container2 #country1,
+.form #container2 #number {
+  background: transparent;
+  height: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+  font-size: 13px;
+}
+
+.form #container2 .feedback {
+  background: transparent;
+  height: 100px;
+  width: 50%;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+  font-size: 13px;
+}
+
+.form #container2 .fields {
+  padding-left: 80px;
+}
+
+.form #container2 #buttondiv {
+  display: flex;
+  justify-content: center;
+}
+
+.form #container2 #buttondiv button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form #container2 #buttondiv button:hover {
+  box-shadow: none;
+}
+
+body {
+  background-image: url(images/bg.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=styles.css.map */
