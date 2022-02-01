@@ -10,31 +10,6 @@ $full:100%;
 $half:50%;
 
 
-#nav {
-    position: fixed;
-    top: 0px;
-    width: $full;
-    z-index: 100000;
-    display: flex;
-    justify-content: space-evenly;
-    border-bottom: 2px solid $secondary-color;
-
-    a {
-        text-decoration: none;
-        padding: 10px 20px;
-        font-size: $nav-size;
-        font-family: $font-nav;
-        color: $secondary-color;
-        transition: transform .2s;
-        font-weight: 900;
-    }
-
-    a:hover {
-        text-decoration: none;
-        color: $tertiary-color;
-        transform: scale(1.2);
-    }
-}
 
 .form {
     font-family: $font-stack;
@@ -43,7 +18,6 @@ $half:50%;
     display: flex;
     width: $full;
     height: $full;
-
 
     #description,
     #container2 {
@@ -56,7 +30,6 @@ $half:50%;
     }
 
     #description {
-
 
         h2,
         p {
@@ -71,13 +44,11 @@ $half:50%;
         }
 
         p {
-
             top: 150px;
         }
     }
 
     #container2 {
-
         h2 {
             text-align: center;
         }
@@ -86,7 +57,6 @@ $half:50%;
             width: $full;
             display: flex;
             justify-content: space-around;
-
         }
 
         input[type=text],
@@ -98,8 +68,6 @@ $half:50%;
             height: 25px;
             border-radius: 20px;
             cursor: pointer;
-            box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
-            transition: 0.5s;
             font-size: 13px;
         }
 
@@ -109,14 +77,12 @@ $half:50%;
             width: 50%;
             border-radius: 20px;
             cursor: pointer;
-            box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
             transition: 0.5s;
             font-size: 13px;
         }
 
         .fields {
             padding-left: 80px;
-
         }
 
         #buttondiv {
@@ -132,8 +98,5 @@ $half:50%;
                 box-shadow: none;
             }
         }
-
     }
-
-
 }
