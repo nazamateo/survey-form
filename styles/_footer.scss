@@ -16,18 +16,22 @@ $half:50%;
     display: block;
     width: $full;
     background-color: transparent;
-    p{
-        display: flex;
-        justify-content: center;
-        font-size: 15px;
-    }
+
+    p,
     #logos {
         display: flex;
         justify-content: center;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #logos {
         position: relative;
         top: 26px;
-        
-        
+
+
         .fa {
             padding: 12px;
             font-size: 12px;
